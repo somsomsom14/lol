@@ -1,0 +1,132 @@
+
+.App {
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.banner_image img{
+  width:20%;
+
+  
+}
+.banner_image{
+  text-align: center;
+}
+.image_box img{
+  width: 10%;
+
+}
+.renderingSummonerInfo{
+  width:1100px;
+  margin:0 auto;
+
+}
+.rankArea img{
+  width: 20%;
+}
+.tier{
+  font-weight: bold;
+}
+.fetchingButton{
+  border:1px solid grey;
+  padding:10px;
+  text-align: center;
+  cursor: pointer;
+
+}
+.gameDetail{
+  margin-top:30px;
+
+
+ 
+  
+
+
+}
+.matchTitle{
+  text-align: center;
+}
+.items_images img{
+width: 9%;
+  
+}
+.participants_flex_box{
+  display:flex;
+  
+  align-items: center;
+  justify-content: space-between;
+
+}
+.detailButton{
+  cursor: pointer;
+
+}
+.smallFont_001{
+
+  font-weight: bold;
+}
+.liveGame_info{
+  margin-top:10px;
+
+}
+.ingametitle{
+
+  text-align: center;
+  
+
+}
+.imageC img{
+  width:8%;
+}
+.para2{
+  font-weight: bold;
+  font-size:15px;
+  padding-left:10px;
+
+
+}
+.notPlayingGame{
+  margin-top:25px;
+  border:1px solid grey;
+  padding:10px;
+  text-align: center;
+}
+.runeImages2 img{
+  width:50%;
+}
+.matchInfoTable{
+  margin-bottom: 200px;
+}
